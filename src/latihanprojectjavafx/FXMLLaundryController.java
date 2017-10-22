@@ -98,6 +98,15 @@ public class FXMLLaundryController implements Initializable {
     }
     @FXML
     private void hapus(ActionEvent event) {
+        Nama.setText("");
+        Alamat.setText("");
+        Berat.setText("");
+        tgl.setText("");
+        rdbCK.setSelected(false);
+        rdbCKS.setSelected(false);
+        rdbS.setSelected(false);
+        tlpn.setText("");
+        Hasil.setText("");
     }
     
 }
